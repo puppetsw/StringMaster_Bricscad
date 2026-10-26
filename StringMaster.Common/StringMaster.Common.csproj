@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StringMaster.UI\StringMaster.UI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BrxMgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Bricsys\BricsCAD V26 en_US\BrxMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TD_Mgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Bricsys\BricsCAD V26 en_US\TD_Mgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

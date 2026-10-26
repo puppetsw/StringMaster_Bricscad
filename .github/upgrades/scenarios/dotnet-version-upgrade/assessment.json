@@ -1,0 +1,2440 @@
+{
+  "settings": {
+    "components": {
+      "code": true,
+      "binaries": false
+    },
+    "targetId": "net8.0",
+    "targetDisplayName": ".NETCoreApp,Version=v8.0"
+  },
+  "analysisStartTime": "2026-08-31T22:13:43.9032681Z",
+  "analysisEndTime": "2026-08-31T22:13:44.3513974Z",
+  "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2270980",
+  "stats": {
+    "summary": {
+      "projects": 2,
+      "issues": 5,
+      "incidents": 98,
+      "effort": 98
+    },
+    "charts": {
+      "severity": {
+        "Mandatory": 98,
+        "Optional": 0,
+        "Potential": 0,
+        "Information": 0
+      },
+      "category": {
+        "Project": 2,
+        "Api": 96
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "StringMaster.Common\\StringMaster.Common.csproj",
+      "startingProject": true,
+      "issues": 3,
+      "storyPoints": 98,
+      "properties": {
+        "appName": "StringMaster.Common",
+        "projectKind": "ClassicWpf",
+        "frameworks": [
+          "net48"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": false,
+        "numberOfFiles": 20,
+        "numberOfCodeFiles": 20,
+        "linesTotal": 1199,
+        "linesOfCode": 1199,
+        "totalApiScanned": 367,
+        "minLinesOfCodeToChange": 96,
+        "maxLinesOfCodeToChange": 96
+      },
+      "ruleInstances": [
+        {
+          "incidentId": "0a60d5d9-20a6-4bfb-9ffa-4cb0369e478b",
+          "ruleId": "Project.0001",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMaster.Common.csproj"
+          }
+        },
+        {
+          "incidentId": "0ebd7635-950c-4cf6-8e12-7dac87625f60",
+          "ruleId": "Project.0002",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net8.0-windows",
+              "protected": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net8.0-windows"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMaster.Common.csproj",
+            "snippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net8.0-windows",
+            "protectedSnippet": "Current target framework: .NETFramework,Version=v4.8\nRecommended target framework: net8.0-windows",
+            "properties": {
+              "CurrentTargetFramework": ".NETFramework,Version=v4.8",
+              "RecommendedTargetFramework": "net8.0-windows"
+            }
+          }
+        },
+        {
+          "incidentId": "1d928343-a142-4af2-a88f-019c4e522897",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "public static SolidColorBrush GetBackgroundColor()",
+              "protected": "T:System.Windows.Media.SolidColorBrush"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Helpers\\ColorHelpers.cs",
+            "snippet": "public static SolidColorBrush GetBackgroundColor()",
+            "protectedSnippet": "T:System.Windows.Media.SolidColorBrush",
+            "label": "T:System.Windows.Media.SolidColorBrush",
+            "properties": {
+              "CharCount": "900"
+            },
+            "line": 8,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "f08e34dc-5dd9-4682-9dda-17ae6b522274",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return (SolidColorBrush)new BrushConverter().ConvertFrom(@\u0022#808080\u0022);",
+              "protected": "T:System.Windows.Media.BrushConverter"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Helpers\\ColorHelpers.cs",
+            "snippet": "return (SolidColorBrush)new BrushConverter().ConvertFrom(@\u0022#808080\u0022);",
+            "protectedSnippet": "T:System.Windows.Media.BrushConverter",
+            "label": "T:System.Windows.Media.BrushConverter",
+            "properties": {
+              "CharCount": "900"
+            },
+            "line": 11,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "1992e149-3b22-42e9-9a49-c79815b75a0d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "return (SolidColorBrush)new BrushConverter().ConvertFrom(@\u0022#808080\u0022);",
+              "protected": "M:System.Windows.Media.BrushConverter.#ctor"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Helpers\\ColorHelpers.cs",
+            "snippet": "return (SolidColorBrush)new BrushConverter().ConvertFrom(@\u0022#808080\u0022);",
+            "protectedSnippet": "M:System.Windows.Media.BrushConverter.#ctor",
+            "label": "M:System.Windows.Media.BrushConverter.#ctor",
+            "properties": {
+              "CharCount": "900"
+            },
+            "line": 11,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "b4682a54-045d-4278-a970-9bf5638c3da9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "FileName = dialog.FileName;",
+              "protected": "P:Microsoft.Win32.FileDialog.FileName"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\OpenDialogService.cs",
+            "snippet": "FileName = dialog.FileName;",
+            "protectedSnippet": "P:Microsoft.Win32.FileDialog.FileName",
+            "label": "P:Microsoft.Win32.FileDialog.FileName",
+            "properties": {
+              "CharCount": "634"
+            },
+            "line": 18,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "7c2e06d8-80a2-440d-b3f2-f4ea9d7bfe90",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var result = dialog.ShowDialog();",
+              "protected": "M:Microsoft.Win32.CommonDialog.ShowDialog"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\OpenDialogService.cs",
+            "snippet": "var result = dialog.ShowDialog();",
+            "protectedSnippet": "M:Microsoft.Win32.CommonDialog.ShowDialog",
+            "label": "M:Microsoft.Win32.CommonDialog.ShowDialog",
+            "properties": {
+              "CharCount": "634"
+            },
+            "line": 15,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "88bf242a-f0a8-443b-8436-b577106e632c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "P:Microsoft.Win32.FileDialog.Filter"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\OpenDialogService.cs",
+            "snippet": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "P:Microsoft.Win32.FileDialog.Filter",
+            "label": "P:Microsoft.Win32.FileDialog.Filter",
+            "properties": {
+              "CharCount": "634"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "4916223c-b2d4-4cfc-87df-8ff546912252",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "P:Microsoft.Win32.FileDialog.DefaultExt"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\OpenDialogService.cs",
+            "snippet": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "P:Microsoft.Win32.FileDialog.DefaultExt",
+            "label": "P:Microsoft.Win32.FileDialog.DefaultExt",
+            "properties": {
+              "CharCount": "634"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "7fdd5ce9-1455-44e1-9e07-58eb908363ec",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "T:Microsoft.Win32.OpenFileDialog"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\OpenDialogService.cs",
+            "snippet": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "T:Microsoft.Win32.OpenFileDialog",
+            "label": "T:Microsoft.Win32.OpenFileDialog",
+            "properties": {
+              "CharCount": "634"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "dff86d8f-443f-475f-8e65-bd794a27e3b7",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "M:Microsoft.Win32.OpenFileDialog.#ctor"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\OpenDialogService.cs",
+            "snippet": "var dialog = new OpenFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "M:Microsoft.Win32.OpenFileDialog.#ctor",
+            "label": "M:Microsoft.Win32.OpenFileDialog.#ctor",
+            "properties": {
+              "CharCount": "634"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "00ff99e1-407e-4056-9d2d-7eb235ea989c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxImage.Warning",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxImage.Warning",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 114
+          }
+        },
+        {
+          "incidentId": "9d512975-890e-4d1b-8851-c948f0620096",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxImage.Warning",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxImage.Warning",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 114
+          }
+        },
+        {
+          "incidentId": "35e5aa5a-4ace-466a-b3a9-a4543dc37141",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxImage.Warning",
+              "protected": "F:System.Windows.MessageBoxImage.Warning"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxImage.Warning",
+            "protectedSnippet": "F:System.Windows.MessageBoxImage.Warning",
+            "label": "F:System.Windows.MessageBoxImage.Warning",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 114
+          }
+        },
+        {
+          "incidentId": "4ff94fae-4f5b-498d-847d-248fa406e6e1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxButton.OK",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxButton.OK",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 93
+          }
+        },
+        {
+          "incidentId": "3e52c434-2c79-438e-847e-ddb6bc897acb",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxButton.OK",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxButton.OK",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 93
+          }
+        },
+        {
+          "incidentId": "8a20495c-c9a7-4a43-a9f5-281b42812ec8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxButton.OK",
+              "protected": "F:System.Windows.MessageBoxButton.OK"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxButton.OK",
+            "protectedSnippet": "F:System.Windows.MessageBoxButton.OK",
+            "label": "F:System.Windows.MessageBoxButton.OK",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 93
+          }
+        },
+        {
+          "incidentId": "6aefe4a7-0119-4335-bc06-6549cb946af7",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Warning)",
+              "protected": "T:System.Windows.MessageBox"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Warning)",
+            "protectedSnippet": "T:System.Windows.MessageBox",
+            "label": "T:System.Windows.MessageBox",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 61
+          }
+        },
+        {
+          "incidentId": "c7d0de7c-98a3-4cae-a1e4-8391649f6c87",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Warning)",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Warning)",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 61
+          }
+        },
+        {
+          "incidentId": "22e14c2d-6bd0-4ee0-b9b0-0bb27f6e098a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Warning)",
+              "protected": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Warning)",
+            "protectedSnippet": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "label": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 45,
+            "column": 61
+          }
+        },
+        {
+          "incidentId": "dbc072f9-214e-443a-be21-b2bfbfa88cb9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxImage.Error",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxImage.Error",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 112
+          }
+        },
+        {
+          "incidentId": "22fb713f-6d1c-4734-aa13-4efff75c1f17",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxImage.Error",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxImage.Error",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 112
+          }
+        },
+        {
+          "incidentId": "d1dd2487-032e-49f8-90df-6a38549acf81",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxImage.Error",
+              "protected": "F:System.Windows.MessageBoxImage.Error"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxImage.Error",
+            "protectedSnippet": "F:System.Windows.MessageBoxImage.Error",
+            "label": "F:System.Windows.MessageBoxImage.Error",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 112
+          }
+        },
+        {
+          "incidentId": "ce3e6e22-5835-4ec9-bbed-32efb85ccadd",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxButton.OK",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxButton.OK",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 91
+          }
+        },
+        {
+          "incidentId": "0bae8e7c-3cb4-467e-8967-bf8d586ddcc2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxButton.OK",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxButton.OK",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 91
+          }
+        },
+        {
+          "incidentId": "d89df33a-e9df-4f54-b5b0-8d0fffe9f678",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBoxButton.OK",
+              "protected": "F:System.Windows.MessageBoxButton.OK"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBoxButton.OK",
+            "protectedSnippet": "F:System.Windows.MessageBoxButton.OK",
+            "label": "F:System.Windows.MessageBoxButton.OK",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 91
+          }
+        },
+        {
+          "incidentId": "09a4ac3a-14b8-4cc0-ae4a-40f63d188142",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Error)",
+              "protected": "T:System.Windows.MessageBox"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Error)",
+            "protectedSnippet": "T:System.Windows.MessageBox",
+            "label": "T:System.Windows.MessageBox",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 59
+          }
+        },
+        {
+          "incidentId": "6890eefe-f1c3-462e-a26c-d649d7d2ed4c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Error)",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Error)",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 59
+          }
+        },
+        {
+          "incidentId": "25fcb49f-06aa-4bcb-88a5-2a9992e6f710",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Error)",
+              "protected": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "MessageBox.Show(message, title, MessageBoxButton.OK, MessageBoxImage.Error)",
+            "protectedSnippet": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "label": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 43,
+            "column": 59
+          }
+        },
+        {
+          "incidentId": "797523fe-7a2f-44cd-a786-099b1f0b00d2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "92c5840b-1ffc-49e0-b2f2-48f55f3ffa6f",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "f246e26a-48ef-4cff-9f54-4453139a2d23",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.OK"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.OK",
+            "label": "F:System.Windows.MessageBoxResult.OK",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "3b3fb46d-34c5-48ee-948e-3bc11900d9a2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "d0edf30f-42ba-4212-acbc-a76a3899a311",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "67a3e388-bcce-4326-ad72-5a2b0bb12137",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.None"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.None",
+            "label": "F:System.Windows.MessageBoxResult.None",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e907bec6-6dd0-425f-b1f2-050c34f4e8e3",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "10dac23c-5474-46f6-badc-b38d633a0c98",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e3edd382-5bc0-44cb-93b0-4cf99b02c343",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.No"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.No",
+            "label": "F:System.Windows.MessageBoxResult.No",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e29eb3fe-8e66-47c3-9f8e-7ef2cf76f33d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "a87797fc-8ed9-48a0-9f4e-a435b1d35100",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "8dff6948-c2a2-4196-8276-777ddcd0199e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.Yes"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.Yes",
+            "label": "F:System.Windows.MessageBoxResult.Yes",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "33884192-6174-4a21-8e9e-d9da78146dc5",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "2012a630-bcfe-413e-a7b1-afff7e819ad4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "442e265e-a929-45bb-92c1-989154e54960",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.Cancel"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Cancel:\r\n                return null;\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.Cancel",
+            "label": "F:System.Windows.MessageBoxResult.Cancel",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 28,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "ca13a62c-a3d8-47e4-9ab0-0e23dbf6df84",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "6708c940-0a7c-4b8b-85b8-84b549903b5a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "914e59a2-7043-44b1-8888-2ef2c59af43c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "F:System.Windows.MessageBoxImage.Question"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "F:System.Windows.MessageBoxImage.Question",
+            "label": "F:System.Windows.MessageBoxImage.Question",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "64a34d0a-b3c4-479e-bb9b-6197ed0e1510",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b851df7b-14c3-43de-85c6-30a44f75eecb",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "41165cce-b179-478e-a929-7201db04b3a8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "F:System.Windows.MessageBoxButton.YesNoCancel"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "F:System.Windows.MessageBoxButton.YesNoCancel",
+            "label": "F:System.Windows.MessageBoxButton.YesNoCancel",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "2b127691-2214-4d1f-9267-82958f1744f1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBox"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBox",
+            "label": "T:System.Windows.MessageBox",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "93d6d2e8-cd02-476b-bcbe-7c82c34ad370",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b392fcaf-76ca-4266-aa87-eeff41303517",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+              "protected": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNoCancel, MessageBoxImage.Question);",
+            "protectedSnippet": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "label": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 27,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "8f144d3e-e699-4415-ba80-e6c998227ac1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "04f26085-f773-4ca1-b2aa-2f4c84a5cc3a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b5376baf-891c-45f7-84a9-cef6f4519aca",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.Cancel"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.Cancel",
+            "label": "F:System.Windows.MessageBoxResult.Cancel",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b2a9b039-91d8-4c81-9f69-4f9bb98bffe8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "afb85f57-da21-44e6-97e1-67016f988942",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "f946a652-2773-4951-8c91-e01eb6a46fed",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.OK"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.OK",
+            "label": "F:System.Windows.MessageBoxResult.OK",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "be58d39c-7fe9-4d0c-9eb9-76cdb974f691",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "ffed60e3-e8c4-47c2-8a71-89d306d484f4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e96f9b24-d773-4b79-ac3a-40b63042c13e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.None"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.None",
+            "label": "F:System.Windows.MessageBoxResult.None",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b45a2c99-722c-41f0-a307-66cfa9d6d1b4",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "82b7677e-6546-471a-904a-4eb6e2a958fb",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "8ec37a5e-dedc-48cc-929c-feb8dc6e73cf",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.No"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.No",
+            "label": "F:System.Windows.MessageBoxResult.No",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "67855145-505d-4f9a-9e51-443423d4110d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "20234074-571c-4208-ae96-537a38524920",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "a6f44be1-695c-441a-846f-c8e8ea8d8a0e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+              "protected": "F:System.Windows.MessageBoxResult.Yes"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "switch (messageBox)\r\n        {\r\n            case MessageBoxResult.Yes:\r\n                return true;\r\n            case MessageBoxResult.No:\r\n                return false;\r\n            case MessageBoxResult.None:\r\n            case MessageBoxResult.OK:\r\n            case MessageBoxResult.Cancel:\r\n            default:\r\n                throw new ArgumentOutOfRangeException();\r\n        }",
+            "protectedSnippet": "F:System.Windows.MessageBoxResult.Yes",
+            "label": "F:System.Windows.MessageBoxResult.Yes",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 11,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "c78d0558-2af9-4bb0-b0d9-74180b147e0a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b1b8ae04-13f7-43a6-a688-c4b81018420d",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxImage"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxImage",
+            "label": "T:System.Windows.MessageBoxImage",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "36ee16bd-3aba-482a-bec4-502d63e1e08a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "F:System.Windows.MessageBoxImage.Question"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "F:System.Windows.MessageBoxImage.Question",
+            "label": "F:System.Windows.MessageBoxImage.Question",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "0495377a-bb17-4c7c-8033-5a23e05a2289",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "98ce781f-464a-47d2-8d72-4ffd79c0a3f8",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxButton"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxButton",
+            "label": "T:System.Windows.MessageBoxButton",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "552de163-40ab-4a8e-bcc5-b33c79f7377a",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "F:System.Windows.MessageBoxButton.YesNo"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "F:System.Windows.MessageBoxButton.YesNo",
+            "label": "F:System.Windows.MessageBoxButton.YesNo",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "a7af1d0a-442d-4d98-a7cc-619326196989",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBox"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBox",
+            "label": "T:System.Windows.MessageBox",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "d83951c0-01ce-4641-8533-734369f15bc0",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "T:System.Windows.MessageBoxResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "T:System.Windows.MessageBoxResult",
+            "label": "T:System.Windows.MessageBoxResult",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "60bd78db-1681-4588-8f8a-475c3493d710",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+              "protected": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\MessageBoxService.cs",
+            "snippet": "var messageBox = MessageBox.Show(message, title, MessageBoxButton.YesNo, MessageBoxImage.Question);",
+            "protectedSnippet": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "label": "M:System.Windows.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)",
+            "properties": {
+              "CharCount": "1677"
+            },
+            "line": 10,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "654d8478-f1ff-457f-8e7f-fc2abf5b9982",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (dr == DialogResult.OK)\r\n            return layerName;",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\AcadLinetypeDialogService.cs",
+            "snippet": "if (dr == DialogResult.OK)\r\n            return layerName;",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "properties": {
+              "CharCount": "1443"
+            },
+            "line": 39,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "41245205-642e-4f0f-9b45-89d717af9a94",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (dr == DialogResult.OK)\r\n            return layerName;",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\AcadLinetypeDialogService.cs",
+            "snippet": "if (dr == DialogResult.OK)\r\n            return layerName;",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "properties": {
+              "CharCount": "1443"
+            },
+            "line": 39,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "3b61f2bc-7dca-4953-94e5-840dac3d350e",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (dr == DialogResult.OK)\r\n            return layerName;",
+              "protected": "F:System.Windows.Forms.DialogResult.OK"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\AcadLinetypeDialogService.cs",
+            "snippet": "if (dr == DialogResult.OK)\r\n            return layerName;",
+            "protectedSnippet": "F:System.Windows.Forms.DialogResult.OK",
+            "label": "F:System.Windows.Forms.DialogResult.OK",
+            "properties": {
+              "CharCount": "1443"
+            },
+            "line": 39,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "4055b4d1-667e-4415-84d4-26df38ace2c0",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var contentDialog = initializer();",
+              "protected": "T:System.Windows.Window"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\DialogService.cs",
+            "snippet": "var contentDialog = initializer();",
+            "protectedSnippet": "T:System.Windows.Window",
+            "label": "T:System.Windows.Window",
+            "properties": {
+              "CharCount": "1833"
+            },
+            "line": 29,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "fad85056-a2c3-4f32-93cb-33e3cc643d6c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "FileName = dialog.FileName;",
+              "protected": "P:Microsoft.Win32.FileDialog.FileName"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\SaveDialogService.cs",
+            "snippet": "FileName = dialog.FileName;",
+            "protectedSnippet": "P:Microsoft.Win32.FileDialog.FileName",
+            "label": "P:Microsoft.Win32.FileDialog.FileName",
+            "properties": {
+              "CharCount": "638"
+            },
+            "line": 18,
+            "column": 12
+          }
+        },
+        {
+          "incidentId": "c59f92f1-e938-4fdb-a8cd-052e7130d6f6",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var result = dialog.ShowDialog();",
+              "protected": "M:Microsoft.Win32.CommonDialog.ShowDialog"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\SaveDialogService.cs",
+            "snippet": "var result = dialog.ShowDialog();",
+            "protectedSnippet": "M:Microsoft.Win32.CommonDialog.ShowDialog",
+            "label": "M:Microsoft.Win32.CommonDialog.ShowDialog",
+            "properties": {
+              "CharCount": "638"
+            },
+            "line": 15,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "b84450fb-8a69-42a8-8ad7-5ff777117b60",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "P:Microsoft.Win32.FileDialog.Filter"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\SaveDialogService.cs",
+            "snippet": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "P:Microsoft.Win32.FileDialog.Filter",
+            "label": "P:Microsoft.Win32.FileDialog.Filter",
+            "properties": {
+              "CharCount": "638"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "2f965406-145d-4b16-b516-78b072f1dc46",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "P:Microsoft.Win32.FileDialog.DefaultExt"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\SaveDialogService.cs",
+            "snippet": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "P:Microsoft.Win32.FileDialog.DefaultExt",
+            "label": "P:Microsoft.Win32.FileDialog.DefaultExt",
+            "properties": {
+              "CharCount": "638"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "d38f090f-c057-4a66-8ef4-0f28c172e3c9",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "T:Microsoft.Win32.SaveFileDialog"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\SaveDialogService.cs",
+            "snippet": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "T:Microsoft.Win32.SaveFileDialog",
+            "label": "T:Microsoft.Win32.SaveFileDialog",
+            "properties": {
+              "CharCount": "638"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "7b5920cb-c825-46f5-b403-df169e2df883",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+              "protected": "M:Microsoft.Win32.SaveFileDialog.#ctor"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\SaveDialogService.cs",
+            "snippet": "var dialog = new SaveFileDialog\r\n        {\r\n            DefaultExt = DefaultExt,\r\n            Filter = Filter\r\n        };",
+            "protectedSnippet": "M:Microsoft.Win32.SaveFileDialog.#ctor",
+            "label": "M:Microsoft.Win32.SaveFileDialog.#ctor",
+            "properties": {
+              "CharCount": "638"
+            },
+            "line": 9,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e3851f7b-6219-4c01-8ca2-18480d71c1a2",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (dr == DialogResult.OK)\r\n            return LineweightToString(lwd.LineWeight);",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\AcadLineweightDialogService.cs",
+            "snippet": "if (dr == DialogResult.OK)\r\n            return LineweightToString(lwd.LineWeight);",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "properties": {
+              "CharCount": "5840"
+            },
+            "line": 23,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "7815a372-f1ad-4253-b290-0652ef78a468",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (dr == DialogResult.OK)\r\n            return LineweightToString(lwd.LineWeight);",
+              "protected": "T:System.Windows.Forms.DialogResult"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\AcadLineweightDialogService.cs",
+            "snippet": "if (dr == DialogResult.OK)\r\n            return LineweightToString(lwd.LineWeight);",
+            "protectedSnippet": "T:System.Windows.Forms.DialogResult",
+            "label": "T:System.Windows.Forms.DialogResult",
+            "properties": {
+              "CharCount": "5840"
+            },
+            "line": 23,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "4a868255-3920-4105-9226-445b98f2e22c",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "if (dr == DialogResult.OK)\r\n            return LineweightToString(lwd.LineWeight);",
+              "protected": "F:System.Windows.Forms.DialogResult.OK"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\Services\\Implementation\\AcadLineweightDialogService.cs",
+            "snippet": "if (dr == DialogResult.OK)\r\n            return LineweightToString(lwd.LineWeight);",
+            "protectedSnippet": "F:System.Windows.Forms.DialogResult.OK",
+            "label": "F:System.Windows.Forms.DialogResult.OK",
+            "properties": {
+              "CharCount": "5840"
+            },
+            "line": 23,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e1b7bccf-ce0c-449b-aaf3-67ca9deab727",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "private void VisibleChanged(object sender, DependencyPropertyChangedEventArgs e)",
+              "protected": "T:System.Windows.DependencyPropertyChangedEventArgs"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "private void VisibleChanged(object sender, DependencyPropertyChangedEventArgs e)",
+            "protectedSnippet": "T:System.Windows.DependencyPropertyChangedEventArgs",
+            "label": "T:System.Windows.DependencyPropertyChangedEventArgs",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 86,
+            "column": 4
+          }
+        },
+        {
+          "incidentId": "6348efa8-7496-48ce-b87b-7d442597ec14",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Visibility = Visibility.Hidden;",
+              "protected": "T:System.Windows.Visibility"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Visibility = Visibility.Hidden;",
+            "protectedSnippet": "T:System.Windows.Visibility",
+            "label": "T:System.Windows.Visibility",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 78,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "e9ffceba-05fa-4c8c-9d48-ea211fde88af",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Visibility = Visibility.Hidden;",
+              "protected": "T:System.Windows.Visibility"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Visibility = Visibility.Hidden;",
+            "protectedSnippet": "T:System.Windows.Visibility",
+            "label": "T:System.Windows.Visibility",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 78,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "7444e3b0-93a7-47d0-9c64-80b5cc570371",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Visibility = Visibility.Hidden;",
+              "protected": "F:System.Windows.Visibility.Hidden"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Visibility = Visibility.Hidden;",
+            "protectedSnippet": "F:System.Windows.Visibility.Hidden",
+            "label": "F:System.Windows.Visibility.Hidden",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 78,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "82bbe8d2-e831-4257-9445-6a5709bf1778",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Visibility = Visibility.Visible;",
+              "protected": "T:System.Windows.Visibility"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Visibility = Visibility.Visible;",
+            "protectedSnippet": "T:System.Windows.Visibility",
+            "label": "T:System.Windows.Visibility",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 72,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "d25f02da-cc41-4b25-a2c6-cf50dfd87208",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Visibility = Visibility.Visible;",
+              "protected": "T:System.Windows.Visibility"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Visibility = Visibility.Visible;",
+            "protectedSnippet": "T:System.Windows.Visibility",
+            "label": "T:System.Windows.Visibility",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 72,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "00923a10-308b-4805-83f7-4e86492f6502",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Visibility = Visibility.Visible;",
+              "protected": "F:System.Windows.Visibility.Visible"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Visibility = Visibility.Visible;",
+            "protectedSnippet": "F:System.Windows.Visibility.Visible",
+            "label": "F:System.Windows.Visibility.Visible",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 72,
+            "column": 8
+          }
+        },
+        {
+          "incidentId": "22f7a261-0015-4976-bcc3-2a4ef04d88f1",
+          "ruleId": "Api.0001",
+          "description": "API is unavailable in net8.0 ",
+          "projectPath": "StringMaster.Common\\StringMaster.Common.csproj",
+          "state": "Active",
+          "location": {
+            "snippetModel": {
+              "unrestricted": "_stringCogoPointsView.Background = ColorHelpers.GetBackgroundColor();",
+              "protected": "T:System.Windows.Media.SolidColorBrush"
+            },
+            "kind": "File",
+            "path": "StringMaster.Common\\StringMasterPalette.cs",
+            "snippet": "_stringCogoPointsView.Background = ColorHelpers.GetBackgroundColor();",
+            "protectedSnippet": "T:System.Windows.Media.SolidColorBrush",
+            "label": "T:System.Windows.Media.SolidColorBrush",
+            "properties": {
+              "CharCount": "4070"
+            },
+            "line": 58,
+            "column": 8
+          }
+        }
+      ],
+      "features": [
+        {
+          "featureId": "WinForms",
+          "incidents": [
+            "4a868255-3920-4105-9226-445b98f2e22c",
+            "7815a372-f1ad-4253-b290-0652ef78a468",
+            "e3851f7b-6219-4c01-8ca2-18480d71c1a2",
+            "3b61f2bc-7dca-4953-94e5-840dac3d350e",
+            "41245205-642e-4f0f-9b45-89d717af9a94",
+            "654d8478-f1ff-457f-8e7f-fc2abf5b9982"
+          ]
+        },
+        {
+          "featureId": "Wpf",
+          "incidents": [
+            "22f7a261-0015-4976-bcc3-2a4ef04d88f1",
+            "1992e149-3b22-42e9-9a49-c79815b75a0d",
+            "f08e34dc-5dd9-4682-9dda-17ae6b522274",
+            "1d928343-a142-4af2-a88f-019c4e522897"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "StringMaster_Briscad\\StringMaster_Briscad.csproj",
+      "startingProject": true,
+      "issues": 0,
+      "storyPoints": 0,
+      "properties": {
+        "appName": "StringMaster_Briscad",
+        "projectKind": "ClassLibrary",
+        "frameworks": [
+          "net8.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ],
+        "isSdkStyle": true,
+        "numberOfFiles": 1,
+        "numberOfCodeFiles": 1,
+        "linesTotal": 7,
+        "linesOfCode": 7,
+        "totalApiScanned": 0,
+        "minLinesOfCodeToChange": 0,
+        "maxLinesOfCodeToChange": 0
+      },
+      "ruleInstances": [],
+      "features": []
+    }
+  ],
+  "rules": {
+    "Project.0001": {
+      "id": "Project.0001",
+      "isFeature": false,
+      "description": "Project file needs to be converted to SDK-style. Modern .NET framework projects require a change in the project file format and use SDK corresponding to project flavor and functionality.",
+      "label": "Project file needs to be converted to SDK-style",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Project.0002": {
+      "id": "Project.0002",
+      "isFeature": false,
+      "description": "Project\u0027s target framework(s) needs to be changed to the new target framework that you selected for this upgrade.\n\nDuring upgrade target framework will be adjusted to corresponding platform when applicable. In some cases project would result in multiple target frameworks after the upgrade if it was using features that now have their own platforms in modern .NET frameworks (windows, iOS, Android etc).",
+      "label": "Project\u0027s target framework(s) needs to be changed",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Overview of porting from .NET Framework to .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265227",
+          "isCustom": false
+        },
+        {
+          "title": ".NET project SDKs",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2265226",
+          "isCustom": false
+        }
+      ]
+    },
+    "Api.0001": {
+      "id": "Api.0001",
+      "isFeature": false,
+      "description": "API is binary incompatible for selected .NET version: affects existing binaries, often requiring recompilation, because the API has changed in a way that prevents older binaries from loading or executing.",
+      "label": "Binary incompatible for selected .NET version",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Breaking changes in .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2262679",
+          "isCustom": false
+        }
+      ]
+    },
+    "WinForms": {
+      "id": "WinForms",
+      "isFeature": false,
+      "description": "Windows Forms APIs for building Windows desktop applications with traditional Forms-based UI that are available in .NET on Windows. Enable Windows Desktop support: Option 1 (Recommended): Target net9.0-windows; Option 2: Add \u003CUseWindowsDesktop\u003Etrue\u003C/UseWindowsDesktop\u003E; Option 3 (Legacy): Use Microsoft.NET.Sdk.WindowsDesktop SDK.",
+      "label": "Windows Forms",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "Windows Forms on .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2341906",
+          "isCustom": false
+        }
+      ]
+    },
+    "Wpf": {
+      "id": "Wpf",
+      "isFeature": false,
+      "description": "WPF APIs for building Windows desktop applications with XAML-based UI that are available in .NET on Windows. WPF provides rich desktop UI capabilities with data binding and styling. Enable Windows Desktop support: Option 1 (Recommended): Target net9.0-windows; Option 2: Add \u003CUseWindowsDesktop\u003Etrue\u003C/UseWindowsDesktop\u003E.",
+      "label": "WPF (Windows Presentation Foundation)",
+      "severity": "Mandatory",
+      "effort": 1,
+      "links": [
+        {
+          "title": "WPF on .NET",
+          "url": "https://go.microsoft.com/fwlink/?linkid=2342008",
+          "isCustom": false
+        }
+      ]
+    }
+  }
+}

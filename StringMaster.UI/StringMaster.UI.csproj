@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Icons\add.png" />
+    <None Remove="Resources\Icons\dotsbutton.png" />
+    <None Remove="Resources\Icons\execute.png" />
+    <None Remove="Resources\Icons\frozen.png" />
+    <None Remove="Resources\Icons\help.bmp" />
+    <None Remove="Resources\Icons\import.png" />
+    <None Remove="Resources\Icons\key.png" />
+    <None Remove="Resources\Icons\locked.png" />
+    <None Remove="Resources\Icons\new.bmp" />
+    <None Remove="Resources\Icons\off.png" />
+    <None Remove="Resources\Icons\on.png" />
+    <None Remove="Resources\Icons\open.bmp" />
+    <None Remove="Resources\Icons\remove - disabled.bmp" />
+    <None Remove="Resources\Icons\remove.bmp" />
+    <None Remove="Resources\Icons\save.bmp" />
+    <None Remove="Resources\Icons\saveas.bmp" />
+    <None Remove="Resources\Icons\settings.bmp" />
+    <None Remove="Resources\Icons\tick.png" />
+    <None Remove="Resources\Icons\unfozen.png" />
+    <None Remove="Resources\Icons\unlocked.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.142" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BrxMgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Bricsys\BricsCAD V26 en_US\BrxMgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TD_Mgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Bricsys\BricsCAD V26 en_US\TD_Mgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\add.png" />
+    <Resource Include="Resources\Icons\dotsbutton.png" />
+    <Resource Include="Resources\Icons\execute.png" />
+    <Resource Include="Resources\Icons\frozen.png" />
+    <Resource Include="Resources\Icons\help.bmp" />
+    <Resource Include="Resources\Icons\import.png" />
+    <Resource Include="Resources\Icons\key.png" />
+    <Resource Include="Resources\Icons\locked.png" />
+    <Resource Include="Resources\Icons\new.bmp" />
+    <Resource Include="Resources\Icons\off.png" />
+    <Resource Include="Resources\Icons\on.png" />
+    <Resource Include="Resources\Icons\open.bmp" />
+    <Resource Include="Resources\Icons\remove - disabled.bmp" />
+    <Resource Include="Resources\Icons\remove.bmp" />
+    <Resource Include="Resources\Icons\save.bmp" />
+    <Resource Include="Resources\Icons\saveas.bmp" />
+    <Resource Include="Resources\Icons\settings.bmp" />
+    <Resource Include="Resources\Icons\tick.png" />
+    <Resource Include="Resources\Icons\unfozen.png" />
+    <Resource Include="Resources\Icons\unlocked.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="StringMaster.Common/StringMaster.Common.csproj" Id="a5e61f03-904c-4391-85d9-fafb363817ec" />
+  <Project Path="StringMaster.UI/StringMaster.UI.csproj" Id="e3f392cf-3662-4444-b5ef-d5ea33259289" />
+  <Project Path="StringMaster_Bricscad/StringMaster_Bricscad.csproj" />
+</Solution>
